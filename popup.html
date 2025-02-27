@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>标签页收藏管理器</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>标签页收藏管理器</h1>
+    
+    <div class="actions">
+      <button id="saveTabsBtn" class="btn primary">保存当前标签页集合</button>
+      <input type="text" id="collectionName" placeholder="集合名称（可选）">
+    </div>
+    
+    <div class="collections-container">
+      <h2>已保存的集合</h2>
+      <div id="collections" class="collections-list">
+        <!-- 已保存的标签页集合将在这里动态加载 -->
+      </div>
+    </div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html> 
