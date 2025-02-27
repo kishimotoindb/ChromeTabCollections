@@ -1,8 +1,37 @@
 # Chrome Tab Collections (标签页收藏管理器)
 
 <div align="center">
-  <img src="images/icon128.png" alt="Chrome Tab Collections Logo" width="128" height="128">
-  <p><i>图标展示了标签页收集和保存功能：浏览器窗口、多彩标签页和保存图标</i></p>
+  <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+    <!-- 背景 -->
+    <rect width="128" height="128" rx="20" fill="#4285f4"/>
+    
+    <!-- 浏览器窗口 -->
+    <rect x="20" y="24" width="88" height="64" rx="6" fill="white"/>
+    
+    <!-- 标签页 -->
+    <rect x="26" y="32" width="30" height="8" rx="4" fill="#34a853"/>
+    <rect x="62" y="32" width="30" height="8" rx="4" fill="#fbbc05"/>
+    
+    <!-- 标签页内容 -->
+    <rect x="26" y="46" width="76" height="4" rx="2" fill="#e6e6e6"/>
+    <rect x="26" y="54" width="66" height="4" rx="2" fill="#e6e6e6"/>
+    <rect x="26" y="62" width="56" height="4" rx="2" fill="#e6e6e6"/>
+    <rect x="26" y="70" width="40" height="4" rx="2" fill="#e6e6e6"/>
+    
+    <!-- 收藏/保存图标 -->
+    <g transform="translate(74, 80) scale(0.8)">
+      <circle cx="32" cy="32" r="28" fill="#ea4335"/>
+      <path d="M32 14 L46 32 L38 32 L38 46 L26 46 L26 32 L18 32 Z" fill="white"/>
+    </g>
+    
+    <!-- 小的标签页叠放效果 -->
+    <rect x="10" y="84" width="50" height="30" rx="4" fill="white" opacity="0.9"/>
+    <rect x="20" y="90" width="30" height="4" rx="2" fill="#4285f4"/>
+    <rect x="20" y="98" width="25" height="3" rx="1.5" fill="#e6e6e6"/>
+    <rect x="20" y="105" width="20" height="3" rx="1.5" fill="#e6e6e6"/>
+  </svg>
+  
+  <p><i>Chrome Tab Collections: 保存、分类和恢复您的标签页集合</i></p>
 </div>
 
 ## 简介
@@ -32,9 +61,9 @@ Chrome Tab Collections 是一个轻量级的Chrome扩展，帮助您管理浏览
 
 1. 下载或克隆本仓库到您的电脑：
    ```
-   git clone https://github.com/你的用户名/ChromeTabCollection.git
+   git clone https://github.com/kishimotoindb/ChromeTabCollections.git
    ```
-   或直接[下载ZIP压缩包](https://github.com/你的用户名/ChromeTabCollection/archive/refs/heads/main.zip)并解压
+   或直接[下载ZIP压缩包](https://github.com/kishimotoindb/ChromeTabCollections/archive/refs/heads/main.zip)并解压
 
 2. 生成图标文件:
    - 如果您有Inkscape: 运行 `./generate_icons.sh`
@@ -101,13 +130,13 @@ Chrome Tab Collections 使用以下技术实现：
 
 ## 🤝 贡献
 
-欢迎贡献代码、报告问题或提出新功能建议！请随时[提交Issue](https://github.com/你的用户名/ChromeTabCollection/issues)或[Pull Request](https://github.com/你的用户名/ChromeTabCollection/pulls)。
+欢迎贡献代码、报告问题或提出新功能建议！请随时[提交Issue](https://github.com/kishimotoindb/ChromeTabCollections/issues)或[Pull Request](https://github.com/kishimotoindb/ChromeTabCollections/pulls)。
 
 ## 📞 联系方式
 
 如有任何问题或建议，请通过以下方式联系我：
 
-- GitHub: [您的GitHub用户名](https://github.com/你的用户名)
+- GitHub: [kishimotoindb](https://github.com/kishimotoindb)
 - 电子邮件: 您的邮箱地址
 
 ---
