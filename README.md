@@ -25,7 +25,7 @@ Chrome Tab Collections 是一个轻量级的Chrome扩展，帮助您管理浏览
 
 ### 方法一：快速安装（推荐）
 
-1. **[点击这里下载最新版本](https://github.com/kishimotoindb/ChromeTabCollections/releases/download/v1.0/chrome-tab-collections-v1.0.zip)**
+1. **[点击这里下载最新版本](https://github.com/kishimotoindb/ChromeTabCollections/releases/download/v1.1/chrome-tab-collections-v1.1.zip)**
 2. 解压下载的ZIP文件到任意文件夹
 3. 打开Chrome浏览器，在地址栏输入：`chrome://extensions/`
 4. 打开右上角的"开发者模式"开关
