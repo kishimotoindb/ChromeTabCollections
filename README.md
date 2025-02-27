@@ -1,36 +1,7 @@
 # Chrome Tab Collections (标签页收藏管理器)
 
 <div align="center">
-  <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
-    <!-- 背景 -->
-    <rect width="128" height="128" rx="20" fill="#4285f4"/>
-    
-    <!-- 浏览器窗口 -->
-    <rect x="20" y="24" width="88" height="64" rx="6" fill="white"/>
-    
-    <!-- 标签页 -->
-    <rect x="26" y="32" width="30" height="8" rx="4" fill="#34a853"/>
-    <rect x="62" y="32" width="30" height="8" rx="4" fill="#fbbc05"/>
-    
-    <!-- 标签页内容 -->
-    <rect x="26" y="46" width="76" height="4" rx="2" fill="#e6e6e6"/>
-    <rect x="26" y="54" width="66" height="4" rx="2" fill="#e6e6e6"/>
-    <rect x="26" y="62" width="56" height="4" rx="2" fill="#e6e6e6"/>
-    <rect x="26" y="70" width="40" height="4" rx="2" fill="#e6e6e6"/>
-    
-    <!-- 收藏/保存图标 -->
-    <g transform="translate(74, 80) scale(0.8)">
-      <circle cx="32" cy="32" r="28" fill="#ea4335"/>
-      <path d="M32 14 L46 32 L38 32 L38 46 L26 46 L26 32 L18 32 Z" fill="white"/>
-    </g>
-    
-    <!-- 小的标签页叠放效果 -->
-    <rect x="10" y="84" width="50" height="30" rx="4" fill="white" opacity="0.9"/>
-    <rect x="20" y="90" width="30" height="4" rx="2" fill="#4285f4"/>
-    <rect x="20" y="98" width="25" height="3" rx="1.5" fill="#e6e6e6"/>
-    <rect x="20" y="105" width="20" height="3" rx="1.5" fill="#e6e6e6"/>
-  </svg>
-  
+  <img src="images/icon128.png" alt="Chrome Tab Collections Logo" width="128" height="128">
   <p><i>Chrome Tab Collections: 保存、分类和恢复您的标签页集合</i></p>
 </div>
 
